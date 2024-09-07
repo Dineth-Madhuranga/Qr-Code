@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: hsl(212, 45%, 89%);
+}
+
+.card {
+    width: 250px;
+    height: 70%;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: hsl(0, 0%, 100%)
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.heading {
+    text-align: center;
+    font-family: sans-serif;
+    color: hsl(218, 44%, 22%);
+}
+
+.paragraph {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+}
